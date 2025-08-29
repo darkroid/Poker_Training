@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     background-color: #121212;
@@ -45,4 +46,53 @@ body {
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
+=======
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+#poker-table {
+    background-color: #2e7d32;
+    border-radius: 50%;
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    position: relative;
+    padding: 20px;
+}
+
+#community-cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 50px;
+    height: 70px;
+    margin: 0 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#action-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+>>>>>>> 59b10549066fc0a6464c53110d93afdc705c5182
 }
